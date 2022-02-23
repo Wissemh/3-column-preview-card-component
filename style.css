@@ -1,0 +1,91 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Big Shoulders Display', cursive;
+ */
+ body {
+     background-color: hsl(0, 0%, 95%);
+     display: flex;
+     min-height: 100vh;
+     align-items: center;
+     overflow: hidden;
+
+ }
+main {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 30em;
+    padding: 5%;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color:  hsl(0, 0%, 95%)    ;
+}
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ button {
+    background-color: hsl(0, 0%, 95%); 
+    height: 8%;
+    width: 60%;
+    border-radius: 15px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    margin-top: 50%;
+} 
+.sectionone {
+    background-color: hsl(31, 77%, 52%);
+}
+.sectionone button {
+    color: hsl(31, 77%, 52%);
+}
+.sectionone button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+.sectiontwo {
+    background-color: hsl(184, 100%, 22%);
+}
+.sectiontwo button {
+    color: hsl(184, 100%, 22%);
+}
+.sectiontwo button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+.sectionthree {
+    background-color: hsl(179, 100%, 13%);
+}
+.sectionthree button{
+    color: hsl(179, 100%, 13%);
+}
+.sectionthree button:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+button:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 95%) ;
+}
+@media (max-width: 375px)
+{
+    body {
+        overflow: auto;
+    }
+    main {
+        flex-direction: column;
+        width: 90%;
+    }
+}
